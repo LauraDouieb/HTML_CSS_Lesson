@@ -34,6 +34,7 @@
   for (var i = 0; i < names.length; i++) {
     
     var firstLetter = names[i].charAt(1).toLowerCase; 
+    var name        = names[i];
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
@@ -41,9 +42,9 @@
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
     if (firstLetter == 'j') {
-      hellospeaker.speak;
+      hellospeaker.speak(name);
     } else {
-      hellospeaker.speak;
+      hellospeaker.speak(name);
     }
   }
 });
