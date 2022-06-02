@@ -33,9 +33,9 @@
   // See Lecture 50, part 1
   for (var i = 0; i < names.length; i++) {
     
-    var firstLetter = names[i].charAt(1).toLowerCase; 
+    var firstLetter = names[i].charAt(0).toLowerCase; 
     var name        = names[i];
-    
+
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name

@@ -1,3 +1,5 @@
+var name = names[i];
+
 (function (window) {
   var helloSpeaker   = {};
   var speakWord      = "Hello";
