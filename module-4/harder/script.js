@@ -47,4 +47,4 @@
       hellospeaker.speak(name);
     }
   }
-});
+})();
