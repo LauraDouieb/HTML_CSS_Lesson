@@ -42,9 +42,9 @@
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
     if (firstLetter == 'j') {
-      hellospeaker.speak(name);
+      byeSpeaker.speak(name);
     } else {
-      hellospeaker.speak(name);
+      helloSpeaker.speak(name);
     }
   }
 })();
